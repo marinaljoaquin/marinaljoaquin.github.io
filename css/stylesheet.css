@@ -15,10 +15,11 @@ body {
 .nav {
   color: black;
   margin-left:80%;
-  font-family: 'futura', sans-serif;
+  font-family: 'poppins', sans-serif;
   line-height: 1.8;
   padding: 12px;
   width:15%;
+  font-size:16pt;
 }
 
 .nav a{
