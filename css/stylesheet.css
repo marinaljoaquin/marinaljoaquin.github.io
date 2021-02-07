@@ -109,10 +109,12 @@ a{
 .himage{
  width:100%;
   height: 100%;
+   transition: transform .3s;
 }
 
 .himage:hover{
 opacity: 0.5;
+ transform: scale(1.15);
 }
 
 .me{
