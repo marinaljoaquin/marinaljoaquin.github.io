@@ -169,6 +169,16 @@ height: 20em;
 
 }
 
+
+.flex-container-3{
+  display:flex;
+ /* border-style: solid;*/
+  height: 15em;
+  flex-wrap: wrap;
+  /*background-color:lightgray;*/
+
+}
+
 .flex-container-2{
  /* border-style: solid;*/
   background-color:#6EEADF;
