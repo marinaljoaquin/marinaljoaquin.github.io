@@ -167,6 +167,17 @@ height: 20em;
 
 }
 
+.flex-element {
+  /*border-style: solid; border-color: black; border-width: 5px;*/
+  width:30%;
+  height: auto; 
+  /*border-style: solid; */ 
+  padding-right: 1%;
+  margin:auto;
+   flex: 0 0 25%;
+   padding-bottom:5%;
+}
+
 .flex-element-2 {
   /*border-style: solid; border-color: black; border-width: 5px;*/
   width:100%;
