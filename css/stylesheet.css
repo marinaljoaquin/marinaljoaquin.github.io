@@ -78,17 +78,6 @@ a{
 .center{
   margin:auto;
 }
-
-.flex-element {
-  width:20%;
-  /*border-style: solid; */ 
-  padding-right: 1%;
-  margin:auto;
-  text-align:center;
-  flex-direction: column;
-   flex: 0 0 25%;
-   padding-bottom:5%;
-}
   
 
 .image1{margin-left:20%;
@@ -176,6 +165,17 @@ height: 20em;
   flex-wrap: wrap;
   /*background-color:lightgray;*/
 
+}
+
+.flex-element-2 {
+  /*border-style: solid; border-color: black; border-width: 5px;*/
+  width:100%;
+  height: auto; 
+  /*border-style: solid; */ 
+  padding-right: 1%;
+  margin:auto;
+   flex: 0 0 40%;
+   padding-bottom:5%;
 }
 
 
