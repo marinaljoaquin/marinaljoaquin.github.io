@@ -20,6 +20,10 @@ body {
   padding: 12px;
   width:15%;
   font-size:16pt;
+  padding-bottom:5%;
+
+    /*background-color: rgba( 255,255,255,0.7);*/
+
 }
 
 .nav a{
@@ -30,15 +34,20 @@ body {
 }
 
 .nav a:hover{
-  color: black;
-  border-bottom: 2px solid black;
+  color: #6EEADF;
+  border-bottom: 3px solid #6EEADF;
+  transition: all .4s ease;
+}
+
+
 
   .nav a:active {
   border-bottom: 2px solid black;
-
+  transition: all .4s ease;
+    
   }
 
-}
+
 
 a{
   text-decoration: none;
@@ -54,12 +63,12 @@ a{
 
 .button a {
     padding: 8px 12px;
-    border: 1px solid white;
+    border: 1px solid color:#6EEADF;
     border-radius: 6px;
     font-family: "Kumbh Sans", sans-serif;
     font-size: 14px;
     color:black;
-    background-color:white;
+    background-color:#6EEADF;
     text-decoration: none;
     display: inline-block;
     
@@ -125,13 +134,15 @@ opacity: 0.5;
 .button-2:hover{
  transform: scale(1.03);
  transition: transform .3s;
+ color:#6EEADF;
 }
 
 .me{
-  position: absolute;
   width: 10%;
   height: auto;
   top:2%; left: 5%;
+  position:absolute;
+  /*background-color: rgba( 255,255,255,0.7);*/
 
 }
 .profile-pic {
@@ -203,7 +214,7 @@ height: 20em;
 
 .flex-container-2{
  /* border-style: solid;*/
-  background-color:#6EEADF;
+  /*background-color:#6EEADF;*/
 
 }
 
