@@ -1,3 +1,6 @@
+html, body {
+  max-width: 100%;
+}
 body {
   background-color:white;
   font-family: 'futura', sans-serif;
@@ -142,9 +145,21 @@ opacity: 0.5;
   height: auto;
   top:2%; left: 5%;
   position:absolute;
+   background-image: none;
+   background:url(background/images/new-logo.png);
   /*background-color: rgba( 255,255,255,0.7);*/
 
 }
+
+/*#me a:hover{
+    background:url(background/images/logo_idea_1_hover.png);
+  }
+ 
+*/
+
+
+
+
 .profile-pic {
   position:absolute;
   width:20%;
