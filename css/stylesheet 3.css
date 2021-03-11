@@ -1,0 +1,319 @@
+html, body {
+  max-width: 100%;
+}
+body {
+  background-color:white;
+  font-family: 'futura', sans-serif;
+  
+}
+
+
+
+
+
+
+.h1 {
+    font-family: 'futura', sans-serif;
+}
+
+.h2 {
+    font-family: 'futura', sans-serif;
+}
+
+.nav {
+  color: black;
+  margin-left:80%;
+  font-family: 'poppins', sans-serif;
+  line-height: 1.8;
+  padding: 12px;
+  width:15%;
+  font-size:16pt;
+  padding-bottom:5%;
+
+    /*background-color: rgba( 255,255,255,0.7);*/
+
+}
+
+.nav a{
+  padding-right:4%;
+
+
+
+}
+
+.nav a:hover{
+  color: #6EEADF;
+  border-bottom: 3px solid #6EEADF;
+  transition: all .4s ease;
+}
+
+
+
+  .nav a:active {
+  border-bottom: 2px solid black;
+  transition: all .4s ease;
+    
+  }
+
+
+
+a{
+  text-decoration: none;
+  color:black;
+
+}
+
+
+ .button {
+    border-radius: 6px;
+
+}
+
+.button a {
+    padding: 8px 12px;
+    border: 1px solid color:#6EEADF;
+    border-radius: 6px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 14px;
+    color:black;
+    background-color:#6EEADF;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.detail{
+  font-weight:bold;
+}
+
+.line-break {
+  border-style: none none solid none;
+}
+
+.space{
+  text-align:center;
+}
+
+.center{
+  margin:auto;
+}
+  
+
+.image1{margin-left:20%;
+}
+
+.section{
+  width: 600px;
+  padding: 50px;
+  margin: 20px;
+  background:white;
+  border: 90px blue;
+}
+
+.home{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.himage-2{
+  height: 95%;
+   float:left;
+  width:95%;
+  padding: 10px;
+}
+
+
+.himage{
+ width:100%;
+  height: 100%;
+   transition: transform .3s;
+}
+
+.himage:hover{
+opacity: 0.5;
+ transform: scale(1.05);
+}
+
+
+.button-2:hover{
+ transform: scale(1.03);
+ transition: transform .3s;
+ color:#6EEADF;
+}
+
+.button-3:hover{
+ transform: scale(1.10);
+ transition: transform .2s;
+ color:#6EEADF;
+}
+
+
+
+
+
+
+.me{
+  width: 10%;
+  height: auto;
+  top:2%; left: 5%;
+  position:absolute;
+   background-image: none;
+   background:url(background/images/new-logo.png);
+  /*background-color: rgba( 255,255,255,0.7);*/
+
+}
+
+/*#me a:hover{
+    background:url(background/images/logo_idea_1_hover.png);
+  }
+ 
+*/
+
+
+
+
+.profile-pic {
+  position:absolute;
+  width:20%;
+  height:auto;
+   margin-top:-37%;
+   left:5%;
+  
+}
+
+
+.header{
+background-color:white; 
+width: 100%; 
+height: 4em;
+
+}
+
+
+
+.header-2{
+background-color:white; 
+width: 100%; 
+height: 20em;
+}
+
+
+.flex-container{
+  display:flex;
+ /* border-style: solid;*/
+  height: 15em;
+  flex-wrap: wrap;
+  /*background-color:lightgray;*/
+
+}
+
+.flex-element {
+  /*border-style: solid; border-color: black; border-width: 5px;*/
+  width:30%;
+  height: auto; 
+  /*border-style: solid; */ 
+  padding-right: 1%;
+  margin:auto;
+   flex: 0 0 25%;
+   padding-bottom:5%;
+}
+
+.flex-element-2 {
+  /*border-style: solid; border-color: black; border-width: 5px;*/
+  width:100%;
+  height: auto; 
+  /*border-style: solid; */ 
+  padding-right: 1%;
+  margin:auto;
+   flex: 0 0 40%;
+   padding-bottom:5%;
+}
+
+
+.flex-container-3{
+  display:flex;
+ /* border-style: solid;*/
+  height: 15em;
+  flex-wrap: wrap;
+  /*background-color:lightgray;*/
+
+}
+
+.flex-container-2{
+ /* border-style: solid;*/
+  /*background-color:#6EEADF;*/
+
+}
+
+
+.mic{
+  max-width:50%;
+  min-width:50%;
+}
+
+
+
+
+
+.size:{
+  font-size: 40px;
+
+
+
+.padding{
+  padding-top:100px
+}
+
+
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.back-to{
+  padding-top:100px;
+  text-align: right;
+  font-weight: bold;*/
+}
+
+.footer{
+padding-top:400px;
+background-color:lightgray;
+
+}
